@@ -1,6 +1,6 @@
 # AJWT
 
-This repository contains an ABAP class `ZCL_AJWT` that provides functionality for generating, verifying, and extracting information from JSON Web Tokens (JWTs). It supports HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 signing algorithms.
+This repository contains an ABAP class `zcl_ajwt` that provides functionality for generating, verifying, and extracting information from JSON Web Tokens (JWTs). It supports HMAC-SHA-256, HMAC-SHA-384, and HMAC-SHA-512 signing algorithms.
 
 ---
 
@@ -101,7 +101,7 @@ Here are some examples of how to use the `zcl_ajwt` class:
 
 ## Unit Tests
 
-The repository includes a local test class `LTCL_JWT` to verify the functionality of the `zcl_ajwt` class. You can run these tests using the ABAP Unit Test Cockpit.
+The repository includes a local test class `ltcl_ajwt` to verify the functionality of the `zcl_ajwt` class. You can run these tests using the ABAP Unit Test Cockpit.
 
 The test class covers the following scenarios:
 
